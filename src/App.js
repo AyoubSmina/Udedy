@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+import NavBarSection from './Section/NavBarSection';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+  useEffect(()=>{
+
+  },[])
+  
+ return (
+    <div style={styles.container}>
+        <NavBarSection />
     </div>
   );
 }
 
 export default App;
+
+const styles = {
+  container:{
+    width: '100vw',height: '100vh',
+    padding: 0,margin: 0,
+    backgroundColor: '#ffa'
+  }
+}
