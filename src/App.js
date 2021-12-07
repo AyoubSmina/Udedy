@@ -1,15 +1,21 @@
 import { useEffect } from 'react';
 import NavBarSection from './Section/NavBarSection';
+import Carousel from './Section/Carousel'
+import { Alert } from '@mui/material';
+import TopAlert from './Section/TopAlert';
+
 
 function App() {
   
   useEffect(()=>{
 
   },[])
-  
+    
  return (
     <div style={styles.container}>
+      <TopAlert />
         <NavBarSection />
+        <Carousel />
     </div>
   );
 }
