@@ -12,21 +12,20 @@ import SwiperCore, {
   // install Swiper modules
   SwiperCore.use([Autoplay,Pagination,Navigation]);
   
-  
-  
-  
+
 export default () => {
     const List = [
         {title:'Develop your skills',subtitle:'Learn in-demand programming languages like Python, Java, C++, and more.',img:'src/c2.jpg'},
         {title:'Sale ends today',subtitle:'Have a dream? Start learning your way to it with courses from $11.99.',img:'src/c3.jpg'},
         {title:'Learning that gets you',subtitle:'Skills for your present (and your future). Get started with us.',img:'src/c1.jpg'}
     ]
-    return (
+    return  (
     <Swiper
       // install Swiper modules
-      modules={[Navigation,Pagination]}
+      modules={[Pagination]}
       navigation
-      spaceBetween={0} 
+      spaceBetween={1} 
+      slidesPerView={1}
       autoplay={{
           "delay": 2500,
           "disableOnInteraction": false
@@ -53,7 +52,7 @@ export default () => {
 
 const styles = {
     Swiper: {
-        width: '100vw',
+        // width: '100vw',
           height: 'max-content',
       }
     ,

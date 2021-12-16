@@ -221,7 +221,7 @@ export default function NavBarSection() {
                     <DesctopSize />
                 </Toolbar>
                 {
-                    useMediaQuery(useTheme().breakpoints.up('md'))?<div style={{borderBottom:'1px solid #b4b4b4',width:'99.9vw',marginInline:"-2%"}}/>:<></>
+                    useMediaQuery(useTheme().breakpoints.up('md'))?<div style={{borderBottom:'1px solid #b4b4b4',width:'104%',marginInline:"-2%"}}/>:<></>
                 }
                 <Toolbar sx={{flexDirection:'row',flexGrow: 1,display: { xs: 'none', md: 'flex'} } }>
                         <LinksMenu style={{marginBlock:"auto",marginInline:'0.7%'}} />
