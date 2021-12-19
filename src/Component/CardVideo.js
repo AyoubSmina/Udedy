@@ -47,8 +47,7 @@ const Styles = {
     card:{ 
         display: 'flex',
         flex: 1, 
-        border: '0.5px solid gray',
-        width:'100%',
+        border: '.7px solid gray',
         height:'175px',
     }
 }

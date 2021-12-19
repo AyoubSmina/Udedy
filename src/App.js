@@ -27,7 +27,7 @@ function App() {
         <br />
         <h1>What to learn next</h1>
         <h2>Recommended for you</h2>
-        {/* <SectionNext /> */}
+        <SectionNext />
         </Container>
         
         <br />

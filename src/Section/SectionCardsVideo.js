@@ -16,8 +16,6 @@ export default function SectionCardsVideo() {
         {frome:'From Story to Screen: Producing a Professi...',numbreSr:'1. Introduction',left:'Lecture * 7 1m left',img:'src/Bv3.jpg'},
     ]
     
-    
-    
     return (
         <Box style={styles.container}>
             <Swiper
@@ -32,17 +30,17 @@ export default function SectionCardsVideo() {
                       },
                     450: {
                     slidesPerView: 2,
-                    spaceBetween: 10
+                    spaceBetween: 8
                     },
                     1200: {
                         slidesPerView: 3,
-                        spaceBetween: 20
+                        spaceBetween: 17
                       }
                       
                 }}
                 >
                 {List.map((v)=>
-                 <SwiperSlide>
+                 <SwiperSlide sx={{}} >
                     <CardVideo value={v} />
                 </SwiperSlide>)}
             </Swiper>

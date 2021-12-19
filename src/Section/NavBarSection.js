@@ -174,8 +174,6 @@ export default function NavBarSection() {
     );
 
     const [open, setopen] = useState(false)
-    
-
     const mobileMenuId = 'primary-search-account-menu-mobile';
     const MobileSize = () => (
         <Box sx={{ display: { xs: 'flex', md: 'none' }, width: '100vw' }}>
