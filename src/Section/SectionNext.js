@@ -10,7 +10,7 @@ import {makeStyles} from '@mui/styles';
 const MakerClasses = makeStyles({
     container:{
         marginTop: 16,
-        height: '125px',
+        height: 'auto',
         '& .swiper':{
             paddingBottom: '9px',
         },
@@ -27,8 +27,6 @@ const MakerClasses = makeStyles({
         }
     }
 })
-
-
 
 export default function SectionNext() {
     const List =[

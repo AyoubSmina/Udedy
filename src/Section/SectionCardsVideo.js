@@ -8,12 +8,12 @@ import {Box} from '@mui/material'
 
 export default function SectionCardsVideo() {
     const List =[
-        {frome:'Blender 3D from zero to hero',numbreSr:'16. Interaction modes',left:'Lecture * 7 left',img:'src/Bv1.jpg'},
-        {frome:'Adobe Illustrator Advanced Vector Artwork',numbreSr:'7. Selection',left:'Lecture * 6m left',img:'src/Bv2.jpg'},
-        {frome:'From Story to Screen: Producing a Professi...',numbreSr:'1. Introduction',left:'Lecture * 7 1m left',img:'src/Bv3.jpg'},
-        {frome:'Blender 3D from zero to hero',numbreSr:'16. Interaction modes',left:'Lecture * 7 left',img:'src/Bv1.jpg'},
-        {frome:'Adobe Illustrator Advanced Vector Artwork',numbreSr:'7. Selection',left:'Lecture * 6m left',img:'src/Bv2.jpg'},
-        {frome:'From Story to Screen: Producing a Professi...',numbreSr:'1. Introduction',left:'Lecture * 7 1m left',img:'src/Bv3.jpg'},
+        {frome:'Blender 3D from zero to hero',numbreSr:'16. Interaction modes',left:'Lecture * 7 left',img:'src/Bv1.jpg',breackWatch:20},
+        {frome:'Adobe Illustrator Advanced Vector Artwork',numbreSr:'7. Selection',left:'Lecture * 6m left',img:'src/Bv2.jpg',breackWatch:100},
+        {frome:'From Story to Screen: Producing a Professi...',numbreSr:'1. Introduction',left:'Lecture * 7 1m left',img:'src/Bv3.jpg',breackWatch:25},
+        {frome:'Blender 3D from zero to hero',numbreSr:'16. Interaction modes',left:'Lecture * 7 left',img:'src/Bv1.jpg',breackWatch:77},
+        {frome:'Adobe Illustrator Advanced Vector Artwork',numbreSr:'7. Selection',left:'Lecture * 6m left',img:'src/Bv2.jpg',breackWatch:99},
+        {frome:'From Story to Screen: Producing a Professi...',numbreSr:'1. Introduction',left:'Lecture * 7 1m left',img:'src/Bv3.jpg',breackWatch:10},
     ]
     
     return (
@@ -33,7 +33,7 @@ export default function SectionCardsVideo() {
                     spaceBetween: 8
                     },
                     1200: {
-                        slidesPerView: 3,
+                        slidesPerView: 4,
                         spaceBetween: 17
                       }
                       
