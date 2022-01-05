@@ -16,7 +16,7 @@ export default function Footer() {
         <Container style={{flex:1,flexDirection:'row'}}>
           <Box style={{ flex:.5 }} >
             <Typography variant="body1" color="inherit">
-              © 2021 IYO
+              © 2021 make by Ayoub Smina
             </Typography>
           </Box>
           {/* <Box style={{ backgroundColor: 'red',flex:.5 }} >
